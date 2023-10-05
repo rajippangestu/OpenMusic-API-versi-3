@@ -13,11 +13,11 @@ const config = {
     url: process.env.RABBITMQ_SERVER,
   },
   postgres: {
-    host: process.env.DBHOST,
-    port: process.env.DBPORT,
-    database: process.env.DBNAME,
-    username: process.env.DBUSERNAME,
-    password: process.env.DBPASSWORD,
+    host: process.env.PGHOST,
+    port: process.env.PGPORT,
+    database: process.env.PGDATABASE,
+    username: process.env.PGUSER,
+    password: process.env.PGPASSWORD,
   },
 }
 
